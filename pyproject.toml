@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lambda-project"
+version = "0.1.0"
+description = ""
+authors = ["son"]
+license = "\"MIT\""
+readme = "README.md"
+packages = [{include = "lambda_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2"
+zappa = "^0.56.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
